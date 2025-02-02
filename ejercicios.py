@@ -1,4 +1,4 @@
-Ejercicio #1 
+# Ejercicio #1 
 
 import math
 
@@ -29,7 +29,7 @@ variacion = 0.5
 tiempo_necesario = time_tem(T0, Ts, k, variacion)
 
 print(f"\nTiempo necesario para que la temperatura esté a {variacion}ºC menos que la temperatura ambiente: {tiempo_necesario:.2f} horas")
-Ejercicio #2 
+#Ejercicio #2 
 
 
 def letra_DNI(DNI):
@@ -47,7 +47,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-Ejercicio #3
+#Ejercicio #3
 def valor_de_pi(n):
     pi = 0
     for k in range(1, n + 1):
@@ -60,7 +60,7 @@ n = 200
 valor_pi = valor_de_pi(n)
 print(f"Valor aproximado de π con n={n}: {valor_pi}")
 
-Ejercicio #4
+##Ejercicio #4
 
 def fibonacci_suc(n):
     fib_s = [0, 1]
@@ -76,35 +76,7 @@ n = int(input("Introduce el valor de n: "))
 lista = fibonacci_suc(n)
 print(f"La sucesión de Fibonacci para n={n} es: {lista}")
 
-Ejercicio #5 
-
-def crear_listado():
-    listado = []
-    for i in range(1, 101):
-        if i % 2 == 0:
-            listado.append(i ** 2)
-        else:           
-            listado.append(i ** 3)
-     return listado
-
-def suma_millon(listado):
-    suma = 0
-    cantidad = 0
-    for numero in numeros:
-        if suma + numero < 1000000:
-            suma += numero
-            cantidad+= 1
-        else:
-            break
-     return suma, cantidad
-
-
-lista_numeros = crear_listado()
-resultado, cantidad = suma_millon(lista_numeros)
-
-print(f"Números en la lista : {lista_numeros}")
-print(f"La suma más cercana a un millón de estos numeros es: {resultado} y fueron sumados para obtenerlas {cantidad} números")
-Ejercicio #5 
+#Ejercicio #5 
 
 def crear_listado():
     listado = []
@@ -133,7 +105,7 @@ resultado, cantidad = suma_millon(lista_numeros)
 print(f"Números en la lista : {lista_numeros}")
 print(f"La suma más cercana a un millón de estos numeros es: {resultado} y fueron sumados para obtenerlas {cantidad} números")
 
- Ejercicio #6
+# Ejercicio #6
 def desglosar_cantidad(cantidad):
     # Definimos los billetes y monedas disponibles
     billetes_monedas = [500, 200, 100, 50, 20, 10, 5, 2, 1]
